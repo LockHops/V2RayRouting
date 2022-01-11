@@ -5,8 +5,8 @@
       "outboundTag": "block",
       "domain": [
         "geosite:category-ads-all",
-        "mousegesturesapi.com",
         "domain:xcz.im",
+        "mousegesturesapi.com",
         "domain:ads.fmdisk.com",
         "domain:ads.feemoo.com",
         "domain:ads.google.com",
@@ -55,33 +55,13 @@
     },
     {
       "type": "field",
-      "port": "",
-      "outboundTag": "direct",
+      "outboundTag": "Direct",
       "domain": [
-        "geosite:category-games@cn"
-        "geosite:adobe",
-        "geosite:adobe-activation",
-        "geosite:microsoft",
-        "geosite:msn",
         "geosite:private",
-        "geosite:cn",
+        "geosite:apple-cn",
         "geosite:google-cn",
-        "domain:fonts.googleapis.com",
-        "domain:fonts.gstatic.com",
-        "domain:softpedia.com",
-        "domain:mtalk.google.com",
-        "domain:ip6-localhost",
-        "domain:ip6-loopback",
-        "domain:local",
-        "domain:localhost"
-      ]
-      "ip": [
-        "geoip:private",
-        "geoip:cn"
-        "::1/128",
-        "fc00::/7",
-        "fe80::/10",
-        "fd00::/8",
+        "geosite:tld-cn",
+        "geosite:category-games@cn"
       ]
     },
     {
@@ -89,11 +69,15 @@
       "port": "",
       "outboundTag": "proxy",
       "domain": ["geosite:geolocation-!cn"]
-      "ip": ["geoip:telegram"]
     },
     {
       "type": "field",
-      "port": "0-65535",
-      "outboundTag": "proxy"
+      "outboundTag": "Direct",
+      "domain": ["geosite:cn"]
+    },
+    {
+      "type": "field",
+      "outboundTag": "Proxy",
+      "network": "tcp,udp"
     }
 ]
