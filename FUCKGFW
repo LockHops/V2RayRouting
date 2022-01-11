@@ -1,0 +1,99 @@
+[
+    {
+      "type": "field",
+      "port": "",
+      "outboundTag": "block",
+      "domain": [
+        "geosite:category-ads-all",
+        "mousegesturesapi.com",
+        "domain:xcz.im",
+        "domain:ads.fmdisk.com",
+        "domain:ads.feemoo.com",
+        "domain:ads.google.com",
+        "domain:afd.l.google.com",
+        "domain:mobileads.google.com",
+        "domain:g1.tagtic.cn",
+        "domain:log.tagtic.cn",
+        "domain:pgdt.ugdtimg.com",
+        "domain:sdownload.stargame.com",
+        "domain:wwads.cn",
+        "domain:gzads.com",
+        "domain:gozendata.com",
+        "domain:gz-data.com",
+        "googleads",
+        "pagead",
+        "adnyg",
+        "admarvel",
+        "admaster",
+        "adsage",
+        "adsmogo",
+        "adsrvmedia",
+        "adwords",
+        "adservice",
+        "adsserving",
+        "analysis",
+        "analytics",
+        "applovin",
+        "domob",
+        "dwtrack",
+        "guanggao",
+        "monitor",
+        "omgmta",
+        "openx",
+        "partnerad",
+        "pingfore",
+        "socdm",
+        "supersonicads",
+        "tracking",
+        "uedas",
+        "usage",
+        "wlmonitor",
+        "zjtoolbar",
+        "adsrvr",
+        "gdt"
+      ]
+    },
+    {
+      "type": "field",
+      "port": "",
+      "outboundTag": "direct",
+      "domain": [
+        "geosite:category-games@cn"
+        "geosite:adobe",
+        "geosite:adobe-activation",
+        "geosite:microsoft",
+        "geosite:msn",
+        "geosite:private",
+        "geosite:cn",
+        "geosite:google-cn",
+        "domain:fonts.googleapis.com",
+        "domain:fonts.gstatic.com",
+        "domain:softpedia.com",
+        "domain:mtalk.google.com",
+        "domain:ip6-localhost",
+        "domain:ip6-loopback",
+        "domain:local",
+        "domain:localhost"
+      ]
+      "ip": [
+        "geoip:private",
+        "geoip:cn"
+        "::1/128",
+        "fc00::/7",
+        "fe80::/10",
+        "fd00::/8",
+      ]
+    },
+    {
+      "type": "field",
+      "port": "",
+      "outboundTag": "proxy",
+      "domain": ["geosite:geolocation-!cn"]
+      "ip": ["geoip:telegram"]
+    },
+    {
+      "type": "field",
+      "port": "0-65535",
+      "outboundTag": "proxy"
+    }
+]
