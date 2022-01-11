@@ -60,6 +60,8 @@
         "geosite:private",
         "geosite:apple-cn",
         "geosite:google-cn",
+        "geosite:microsoft",
+        "geosite:msn"
         "geosite:tld-cn",
         "geosite:category-games@cn"
       ]
