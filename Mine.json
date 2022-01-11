@@ -1,0 +1,35 @@
+[
+  {
+    "inboundTag": [],
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all",
+      "mousegesturesapi.com",
+      "googleads.g.doubleclick.net",
+      "adservice.google.com"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:geolocation-!cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:category-games@cn",
+      "geosite:adobe",
+      "geosite:adobe-activation",
+      "geosite:microsoft",
+      "geosite:msn",
+      "geosite:private",
+      "geosite:cn"
+    ],
+    "enabled": true
+  }
+]
