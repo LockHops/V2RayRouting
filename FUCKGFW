@@ -78,6 +78,6 @@
     {
       "type": "field",
       "outboundTag": "proxy",
-      "network": "tcp,udp"
+      "port": "0-65535"
     }
 ]
