@@ -55,7 +55,7 @@
     },
     {
       "type": "field",
-      "outboundTag": "Direct",
+      "outboundTag": "direct",
       "domain": [
         "geosite:private",
         "geosite:apple-cn",
@@ -72,12 +72,12 @@
     },
     {
       "type": "field",
-      "outboundTag": "Direct",
+      "outboundTag": "direct",
       "domain": ["geosite:cn"]
     },
     {
       "type": "field",
-      "outboundTag": "Proxy",
+      "outboundTag": "proxy",
       "network": "tcp,udp"
     }
 ]
