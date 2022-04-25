@@ -61,11 +61,7 @@
       "domain": [
         "geosite:private",
         "geosite:tld-cn",
-        "geosite:category-games@cn",
-        "domain:ip6-localhost",
-        "domain:ip6-loopback",
-        "domain:local",
-        "domain:localhost"
+        "geosite:category-games@cn"
       ]
     },
     {
@@ -78,15 +74,9 @@
     },
     {
       "type": "field",
-      "port": "",
       "outboundTag": "direct",
-      "ip": [
-        "geoip:private",
-        "::1/128",
-        "fc00::/7",
-        "fe80::/10",
-        "fd00::/8",
-        "geoip:cn"
+      "domain": [
+        "geosite:cn"
       ]
     },
     {
