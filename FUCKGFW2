@@ -60,7 +60,6 @@
       "outboundTag": "direct",
       "domain": [
         "geosite:private",
-        "geosite:apple-cn",
         "geosite:tld-cn",
         "geosite:category-games@cn",
         "domain:ip6-localhost",
