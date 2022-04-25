@@ -1,17 +1,11 @@
 [
     {
       "type": "field",
-      "protocol": [
-        "bittorrent"
-      ],
-      "outboundTag": "direct"
-    },
-    {
-      "type": "field",
       "port": "",
       "outboundTag": "block",
       "domain": [
         "geosite:category-ads-all",
+        "domain:mousegesturesapi.com",
         "domain:xcz.im",
         "domain:ads.fmdisk.com",
         "domain:ads.feemoo.com",
@@ -63,14 +57,12 @@
     },
     {
       "type": "field",
-      "port": "",
       "outboundTag": "direct",
       "domain": [
-        "geosite:cn",
-        "domain:fonts.googleapis.com",
-        "domain:fonts.gstatic.com",
-        "domain:softpedia.com",
-        "domain:mtalk.google.com",
+        "geosite:private",
+        "geosite:apple-cn",
+        "geosite:tld-cn",
+        "geosite:category-games@cn",
         "domain:ip6-localhost",
         "domain:ip6-loopback",
         "domain:local",
@@ -82,33 +74,7 @@
       "port": "",
       "outboundTag": "proxy",
       "domain": [
-        "geosite:google",
-        "geosite:github",
-        "geosite:netflix",
-        "geosite:telegram",
-        "geosite:geolocation-!cn",
-        "geosite:appledaily",
-        "geosite:github",
-        "geosite:twitter",
-        "geosite:amp",
-        "domain:ytimg.com",
-        "domain:ggpht.com",
-        "domain:humblebundle.com",
-        "domain:analytics.twitter.com",
-        "domain:g.whatsapp.net",
-        "t.me",
-        "tdesktop.com",
-        "instagram",
-        "twimg",
-        "v2ex"
-      ]
-    },
-    {
-      "type": "field",
-      "port": "",
-      "outboundTag": "proxy",
-      "ip": [
-        "geoip:telegram"
+        "geosite:geolocation-!cn"
       ]
     },
     {
