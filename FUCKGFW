@@ -62,7 +62,11 @@
         "geosite:private",
         "geosite:apple-cn",
         "geosite:tld-cn",
-        "geosite:category-games@cn"
+        "geosite:category-games@cn",
+        "domain:ip6-localhost",
+        "domain:ip6-loopback",
+        "domain:local",
+        "domain:localhost"
       ]
     },
     {
