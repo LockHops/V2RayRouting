@@ -62,7 +62,8 @@
       "domain": [
         "geosite:private",
         "geosite:tld-cn",
-        "geosite:category-games@cn"
+        "geosite:category-games@cn",
+        "domain:cn.bing.com"
       ]
     },
     {
