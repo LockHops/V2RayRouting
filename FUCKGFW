@@ -71,7 +71,7 @@
       "port": "",
       "outboundTag": "proxy",
       "domain": [
-        "geosite:geolocation-!cn",
+        "geosite:geolocation-!cn"
       ]
     },
     {
