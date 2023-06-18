@@ -63,8 +63,7 @@
         "geosite:private",
         "geosite:tld-cn",
         "geosite:category-games@cn",
-        "domain:cn.bing.com",
-        "domain:msftconnecttest.com"
+        "domain:cn.bing.com"
       ]
     },
     {
@@ -72,7 +71,8 @@
       "port": "",
       "outboundTag": "proxy",
       "domain": [
-        "geosite:geolocation-!cn"
+        "geosite:geolocation-!cn",
+        "domain:msftconnecttest.com"
       ]
     },
     {
