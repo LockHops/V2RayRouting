@@ -60,7 +60,6 @@
       "type": "field",
       "outboundTag": "direct",
       "domain": [
-        "geosite:private",
         "geosite:cn",
         "geosite:category-games@cn",
         "domain:cn.bing.com"
