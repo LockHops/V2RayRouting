@@ -63,7 +63,11 @@
         "geosite:private",
         "geosite:tld-cn",
         "geosite:category-games@cn",
-        "domain:cn.bing.com"
+        "domain:cn.bing.com",
+        "domain:ip6-localhost",
+        "domain:ip6-loopback",
+        "domain:local",
+        "domain:localhost"
       ]
     },
     {
