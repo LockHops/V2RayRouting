@@ -72,7 +72,6 @@
       "outboundTag": "proxy",
       "domain": [
         "geosite:geolocation-!cn",
-        "domain:msftconnecttest.com"
       ]
     },
     {
