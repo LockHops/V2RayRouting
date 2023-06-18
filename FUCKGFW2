@@ -61,7 +61,7 @@
       "outboundTag": "direct",
       "domain": [
         "geosite:private",
-        "geosite:tld-cn",
+        "geosite:cn",
         "geosite:category-games@cn",
         "domain:cn.bing.com"
 
@@ -73,13 +73,6 @@
       "outboundTag": "proxy",
       "domain": [
         "geosite:geolocation-!cn"
-      ]
-    },
-    {
-      "type": "field",
-      "outboundTag": "direct",
-      "domain": [
-        "geosite:cn"
       ]
     },
     {
