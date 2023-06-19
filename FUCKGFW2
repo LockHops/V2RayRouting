@@ -1,7 +1,4 @@
 [
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "domainMatcher": "mph",
     {
       "type": "field",
       "port": "",
