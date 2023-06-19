@@ -1,5 +1,7 @@
 [
     {
+      "domainMatcher": "mph",
+      "domainStrategy": "IPIfNonMatch",
       "type": "field",
       "port": "",
       "outboundTag": "block",
