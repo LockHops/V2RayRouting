@@ -58,9 +58,11 @@
     },
     {
       "type": "field",
+      "port": "",
       "outboundTag": "direct",
       "domain": [
         "geosite:cn",
+        "geosite:private",
         "geosite:category-games@cn",
         "domain:cn.bing.com"
       ]
