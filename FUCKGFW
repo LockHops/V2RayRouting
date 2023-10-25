@@ -77,6 +77,10 @@
     {
       "type": "field",
       "outboundTag": "direct",
+      "ip": [
+        "geoip:private",
+        "geoip:cn"
+      ],
       "domain": ["geosite:cn"]
     },
     {
