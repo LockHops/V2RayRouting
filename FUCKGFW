@@ -60,7 +60,6 @@
       "outboundTag": "direct",
       "domain": [
         "geosite:private",
-        "geosite:apple-cn",
         "geosite:tld-cn",
         "geosite:category-games@cn",
         "domain:cn.bing.com"
@@ -81,7 +80,9 @@
         "geoip:private",
         "geoip:cn"
       ],
-      "domain": ["geosite:cn"]
+      "domain": [
+        "geosite:cn"
+      ]
     },
     {
       "type": "field",
